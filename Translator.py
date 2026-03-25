@@ -34,7 +34,7 @@ thai_agent = Agent(
 triage_agent = Agent(
     name="Triage Agent",
     instructions="You determine which agent to use based on the user's phrase they want to translate",
-    handoffs=[spanish_agent, german_agent]
+    handoffs=[spanish_agent, german_agent, mandarin_chinese_agent, saudi_arabic_agent, thai_agent]
 )
 
 async def main():
